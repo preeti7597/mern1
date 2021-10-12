@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    margin:0;
+    text-decoration: none;
+}
+/*---------------------------Navbar-----------------------------------*/
+.navbar{
+    box-shadow: 0px 2px 20px 3px black;
+}
+.navbar-brand{
+    font-weight: bold;
+    color: #c5123b !important;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+}
+
+.navbar-nav{
+    font-size: 1.1rem;
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: rgb(8, 8, 253)!important ;
+}
+.border{
+    box-shadow: 4px 5px 20px 0px rgb(44, 44, 44);
+    
+}
+/*---------------------------home-----------------------------------*/
+.home-page{
+    height:89vh;
+    padding:80px;
+    font-family: 'Crimson Text', serif;
+    background: linear-gradient(90deg,#00bcd4 50%, #fbff07 50%);
+}
+.home-div{
+    margin-top: 8rem;
+    text-align: center;
+}
+.home-div p{
+    color:rgb(21, 31, 112);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+.preweb{
+    color:darkred;
+    font-weight: bold;
+}
+.home-div h1{
+    color: rgb(183 34 0);
+    text-shadow: 2px 2px black;
+}
+
+
+/*-------------------signup------------------------*/
+.registration{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:red;
+
+}
+.card-body{
+    font-family: 'Crimson Text', serif;
+}
+.sloginLink{
+    padding-left: 8rem;
+}
+.sloginLink:hover{
+    text-decoration: none;
+    color:green;
+}
+/*-------------------login------------------------*/
+.login-heading{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:red;
+}
+
+.signupLinkL{
+    padding-left: 4rem;
+}
+.signupLinkL:hover{
+    text-decoration: none;
+    color:green;
+}
+
+/*-------------------contact------------------------*/
+.grid{
+    background-color: rgb(83, 230, 243);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin:2.5rem 1rem 0rem 1rem;
+    color:black;
+}
+.contact-col{
+    background-color: cadetblue;
+    border-radius: 0.5rem;
+}
+.contact-heading{
+    color:blanchedalmond;
+    font-size: 2rem;
+    text-align: center;
+}
+/*-----------------------about--------------------------*/
+.img{
+    height:200px;
+    width:200px;
+}
+.worklink{
+    color:red;
+}
+/*-----------------------error--------------------------*/
+.error-div{
+    padding-top: 8rem;
+    text-align: center;
+}
+.error-div h1{
+    font-size: 10rem;
+    font-weight: bold;
+    color: rgb(251 205 205);
+}
+.error-div h2{
+font-family: 'Lobster', cursive;
+color: rgb(234 148 21);
+letter-spacing: 0.2rem;
+word-spacing: 0.5rem;
+}
+
+.errorbtn{
+    background-color: rgb(47, 31, 136);
+    color:white;
+    padding:12px 25px;
+    border-radius: 22px;
+    box-shadow: 5px 4px 10px #5b5b6f;
+}
+.errorbtn:hover{
+    background-color: rgb(113, 88, 252);
+    color:white;
+    text-decoration: none; 
+}
